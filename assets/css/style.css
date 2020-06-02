@@ -1,0 +1,276 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'ChelseaMarket-Regular';
+    src: url('../fonts/ChelseaMarket-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'ChelseaMarket-Regular';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 20px;
+    
+  
+}
+
+/* header */
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color:white;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.brand {
+    float: left;
+    padding-top: 10px;
+    margin-right: 2em;
+}
+
+.header-left {
+    float: left;
+}
+.menu-left {
+    float: left;
+    margin-right: 2em;
+    display: block;
+    line-height: 60px;
+}
+
+.menu-left:hover {
+    color: #EAB543;
+}
+
+.header-right {
+    float: right;
+    padding-top:15px ;
+padding-bottom: 15px;
+    
+}
+
+.menu-right {
+    float: right;
+    border:2px solid black;
+    border-radius: 5em / 5em;
+    padding: 2px 10px;
+    display: block;
+    
+}
+
+
+
+.menu-right:hover {
+   background-color: #EAB543;
+}
+
+/* menu icon  */
+.menu-icon {
+    color:#EAB543;
+    float:right;
+    font-size:25px;
+   padding-top: 15px;
+   padding-right: 20px;
+    display: none;
+  }
+
+ 
+
+/* top wrapper */
+
+.top-wrapper{
+    background: url('../img/heroku_1.jpg');
+    padding: 200px 0 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.welcome {
+    letter-spacing: 0.5em;
+    font-size: 45px;
+}
+
+.dots {
+    color: red;
+    
+}
+
+/* mainlist wrapper */
+
+.mainlist-wrapper {
+    
+    padding: 90px 20px 30px 20px;
+   
+}
+
+.mainlist-title {
+    text-align: center;
+    padding-top: 10px;
+   
+}
+
+.wrap-border {
+    
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    padding-bottom: 10px;
+    
+    
+}
+
+.receipe-coloumn {
+    display: flex;
+    flex-direction: column;
+  
+    margin: auto;
+}
+
+.receipe-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.receipe-content{
+    flex-basis: 25%;
+    margin: auto;
+    padding: 20px;
+}
+
+.receipe-list {
+    text-align: center;
+    padding: 10px;
+    border-radius: 0.5em/0.5em;
+
+   
+   
+}
+
+.receipe-list a:hover{
+    color: #EAB543;
+}
+
+/* how to make cookies */
+
+.howto-wrapper {
+    padding: 90px 0 30px 0;
+}
+
+#almond, #cokelat, #moka, #kacang {
+    padding: 60px 20px 40px 20px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(128, 128, 128,0.2);
+}
+
+.top-wrap-article {
+    text-align: center;
+}
+
+/* tentang */
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+.identitas {
+    border-radius: 50%;
+}
+aside {
+    float: right;
+    width: 30%;
+    padding: 10px;
+   
+}
+
+.about-mimih {
+   
+    padding: 20px;
+}
+
+.about-mimih h2 {
+    text-align: center;
+}
+
+.about-mimih p {
+    text-align: justify;
+}
+
+.about-me {
+    padding:20px;
+    text-align: center;
+    margin: 10px;
+   
+}
+
+.about-me p {
+    font-size: 10px;
+    text-align: justify;
+    
+}
+
+figcaption {
+    font-size: 8px;
+}
+
+/* kontak */
+
+.contact-wrapper {
+    margin: auto;
+    text-align: center;
+}
+
+input, textarea {
+    width: 400px;
+    padding: 20px;
+    font-family: 'ChelseaMarket-Regular';
+    border: 1px solid rgb(168, 163, 163);
+    margin: 10px 0 20px 0;
+    border-radius: 0.5em/0.5em;
+}
+
+input[type=submit]{
+    background-color: #EAB543;
+    cursor: pointer;
+    
+}
+
+.email-mimih {
+    color: red;
+}
+
+footer {
+    margin-bottom: 0;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(168, 163, 163);
+    
+}
+
+
+

@@ -1,0 +1,167 @@
+
+/* tablet */
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 992px */
+@media screen and (max-width: 992px) {
+    .receipe-content {
+        flex-basis: 50%;
+    }
+
+    aside {
+        width: 100%;
+    }
+    #content {
+        width: 100%;
+    }
+    .about-me p {
+        font-size: 12px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+}
+   /* smartphone */
+    /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
+   @media screen and (max-width: 425px) {
+
+    p {
+        font-size: 14px;
+    }
+    .contact-wrapper {
+        padding: 0 20px;
+    }
+
+    input, textarea {
+        width: 300px;
+    }
+    .top-wrap-article img {
+        width: 300px;
+    }
+.brand, .brand-word {
+    padding-left: 20px;
+}
+    .container {
+        padding: 0;
+    }
+      .receipe-content {
+          flex-basis: 50%;
+      }
+
+      aside {
+          width: 100%;
+      }
+
+      .about-me p {
+        font-size: 12px;
+    }
+    
+    
+      #content {
+          width: 100%;
+      }
+
+      /* menu icon */
+
+      .menu a.menu-icon {
+          display: block;
+          float: right;
+      }
+
+    .header-left {
+        padding-top: 60px;
+
+    }
+
+    .header-right {
+        padding: 10px 170px 20px 170px;
+    }
+
+       .header-left, .header-right {
+          float: none;
+          display: none;
+       
+         
+      }
+
+      .brand {
+         margin: 0;
+      }
+
+}
+      
+
+   @media screen and (max-width: 425px) {
+
+    
+
+   .menu.responsive  {
+    position: relative;
+    }
+
+    .menu.responsive .container {
+        background-color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .menu.responsive a.menu-icon {
+    top: 0;   
+    right: 0; 
+    position: absolute;
+    }
+
+
+    .menu.responsive .header-left,
+    .menu.responsive .header-right {
+        display: block;
+        float: none;    
+    }
+
+    .menu.responsive .menu-left{
+        line-height: 35px;
+    }
+
+
+    .menu.responsive .menu-left, 
+    .menu.responsive .menu-right {
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0; 
+    }
+
+   }
+
+   @media screen and (max-width: 375px) {
+    .header-right {
+        padding: 10px 145px 20px 145px;
+    }
+}
+
+   @media screen and (max-width: 320px) {
+       .brand-word p {
+        font-size: 12px;
+       }
+
+       .welcome {
+           font-size: 35px;
+       }
+
+       .top-wrap-article img {
+        width: 250px;
+    }
+
+    input, textarea {
+        width: 250px;
+    }
+    .header-right {
+        padding: 10px 118px 20px 118px;
+       
+    }
+
+    footer {
+        padding: 0 20px;
+    }
+   }
+
+   
